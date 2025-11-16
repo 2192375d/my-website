@@ -1,6 +1,6 @@
 export default function Posts() {
 
-  const ASSET_SOURCE = "/public/assets/posts/CirnoS/";
+  const ASSET_SOURCE = "/assets/posts/CirnoS/";
   return (
     <>
 
