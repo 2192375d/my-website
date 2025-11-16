@@ -1,6 +1,6 @@
 export default function Posts() {
 
-  const ASSET_SOURCE = "/src/assets/posts/";
+  const ASSET_SOURCE = "/public/assets/posts/CirnoS/";
   return (
     <>
 
@@ -38,7 +38,7 @@ export default function Posts() {
           <li><a href="https://github.com/heptagonal7">Cheese</a>: responsible for some game visual features, pixel art assets, and testing</li>
           <li><a href="https://amai-ichigo.itch.io/">Ichigo</a>: responsible for illustrations (she's really good)</li>
         </ul>
-        The roles above is just a reeeeeeeeeeeeeeeeeeally general generalization of what each one worked on, but in fact, we all sort of just did a bit of everything, instead of been assigned to a specific task.
+        The roles above is just a really really really general generalization of what each one worked on, in fact, we all sort of just did a bit of everything, instead of been assigned to a specific task.
         <br />
         To be honest everyone in the game contributed almost equally and enormously, the game would look much worse if we had one less person.
         <h3>pre-jam planning</h3>
@@ -168,7 +168,7 @@ export default function Posts() {
         <h3>conclusion</h3>
         And that's it, there's much much more stuffs I did after the day of release, like adding new features, dealing with stupid godot export and stupid itch.io website lagging all that. But I'm too lazy to include all of them. They aren't even part of the 3 days afterall!
         <br />
-        I'm really happy for completing this, this is the first time I managed to prove myself that at I can actually complete a game dev project without gaving up half way.
+        I'm really happy for completing this, this is the first time I managed to prove myself that I can actually complete a game dev project without gaving up half way.
         <br />
         There is an enormous amount of stuffs I learned when making this, mostly tied to resources, effect, and ways of managing big project (In cmd, I ran `tree .` in the root directory of the project, and it tells me we got 474 files! Never had a project with many files made in barely 3 days!)
         <br />
