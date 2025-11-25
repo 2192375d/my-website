@@ -62,7 +62,7 @@ export default function Posts() {
         <br />
         Your goal is to reach certain amount of score within the time constraint (to get the happy ending).
         <br />
-        <h3>Part 0 (early development during day 1, but it didn't take too long)</h3>
+        <h3>Day 0 (early development during day 1, but it didn't take too long)</h3>
         Here are two early sketches of the (expected) gameplay
         <br />
         <img className="postImg" src={ASSET_SOURCE + "CirnoSEarlySketch1.webp"} />
