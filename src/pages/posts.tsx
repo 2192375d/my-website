@@ -8,7 +8,7 @@ export default function Posts() {
 
       (Cirno's Swirlaria is the only project I logged here, I will add more in the future)
       <p>
-        <h2>Cirno's Swirlaria (October 23rd-October 27th)</h2>
+        <h2 id="Cirno's Swirlaria">Cirno's Swirlaria (October 23rd-October 27th)</h2>
         <ul>
           <li><a href="https://github.com/2192375d/Touhou-Game-Jam-16-Cirno-s-Swirlaria">github repo</a></li>
           <li><a href="https://2635266513.itch.io/cirnos-swirlaria">game link</a></li>
