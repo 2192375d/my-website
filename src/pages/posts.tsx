@@ -8,7 +8,7 @@ export default function Posts() {
 
       (Cirno's Swirlaria is the only project I logged here, I will add more in the future)
       <p>
-        <h2>Cirno's Swirlaria (October 23rd-October 27th)</h2>
+        <h2 id="Cirno's Swirlaria">Cirno's Swirlaria (October 23rd-October 27th)</h2>
         <ul>
           <li><a href="https://github.com/2192375d/Touhou-Game-Jam-16-Cirno-s-Swirlaria">github repo</a></li>
           <li><a href="https://2635266513.itch.io/cirnos-swirlaria">game link</a></li>
@@ -62,7 +62,7 @@ export default function Posts() {
         <br />
         Your goal is to reach certain amount of score within the time constraint (to get the happy ending).
         <br />
-        <h3>Part 0 (early development during day 1, but it didn't take too long)</h3>
+        <h3>Day 0 (early development during day 1, but it didn't take too long)</h3>
         Here are two early sketches of the (expected) gameplay
         <br />
         <img className="postImg" src={ASSET_SOURCE + "CirnoSEarlySketch1.webp"} />
