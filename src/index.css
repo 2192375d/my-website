@@ -99,15 +99,7 @@ p {
   padding: 5px;
 }
 
-.postsNavBar {
-  line-height: 2;
-  background: #101a2f; 
-  border: 1px solid #24385f;
-  font-size: 20px;
-  text-align: center;
-  width: 180px;
-  padding: 2px;
-}
+
 
 
 .main_page {
@@ -128,6 +120,55 @@ p {
   border-radius: 8px;
   margin: 10px;
 }
+
+.postsNavBar {
+  line-height: 2;
+  background: #101a2f; 
+  border: 1px solid #24385f;
+  font-size: 20px;
+  text-align: center;
+  width: 200px;
+  padding: 2px;
+}
+
+.postCard {
+  background: #101a2f;
+  /* box-shadow: 0 8px 20px rgba(115,85,240,0.18) */
+  border: 1px solid #7c5bff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.postsNavBar .vcontainer a {
+  display: block;
+  width: 100%;
+  box-sizing: border-box; /* keep padding inside the width */
+  padding: 8px;          /* or use 8px 0 if you don’t want side padding */
+  line-height: 1.5;
+  text-align: center;
+}
+
+.postLink {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 10px 1;
+  background: #0f1830;
+  border: 1px solid #2ad38f;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 1.1;
+  color: #f97316;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
+.postLink:hover {
+  background: #142040;
+  border-color: #ef4444;
+}
+
 
 /*_____________________abandoned stuffs_____________________*/
 .gamesGrid {

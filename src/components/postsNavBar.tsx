@@ -1,11 +1,16 @@
-import { Link } from "react-router-dom"
+import { posts } from "../pages/posts.tsx"
 
-export default function navBar() {
+export default function PostsNavBar() {
   return (
     <div className="postsNavBar">
       <div className="vcontainer">
-        <a href="#Cirno's Swirlaria">Cirno's Swirlaria</a>
+        {posts.map(({ title }) => (
+          <a key={title} href={`#${title}`} className="postLink">
+            {title}
+          </a>
+        ))}
+
       </div>
-    </div >
-  )
+    </div>
+  );
 }
