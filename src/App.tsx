@@ -18,6 +18,7 @@ function App() {
       <div className="hcontainer">
         <div className="navColumn">
           <NavBar />
+          <br />
           {inPostsPage && <PostsNavBar />}
         </div>
         <div className="main_page">

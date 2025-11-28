@@ -49,11 +49,11 @@ h3 {
   /* color: #7c5bff; */
 
   /* text-decoration: none; */
-  background: rgba(52, 211, 153, 0.08);
-  padding: 8px 8px;
-  border-radius: 6px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.18);
-  margin: 16px 0 8px;
+  /* background: rgba(52, 211, 153, 0.08); */
+  /* padding: 8px 8px; */
+  /* border-radius: 6px; */
+  /* box-shadow: 0 6px 12px rgba(0, 0, 0, 0.18); */
+  /* margin: 16px 0 8px; */
 }
 
 br {
@@ -66,6 +66,21 @@ ul {
 
 p {
   margin-top: 0.1rem;
+}
+
+pre {
+  background: #0f1830;
+  border: 1px solid #1e2f55;
+  border-radius: 10px;
+  padding: 12px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35), 0 0 16px rgba(52, 211, 153,
+  0.12);
+  overflow: auto;
+  }
+
+pre code {
+  font-family: "Fira Code", Menlo, Consolas, monospace;
+  color: #f1f5f9;
 }
 
 .hcontainer {
@@ -153,9 +168,9 @@ p {
 }
 
 .postCard {
-  /* background: #101a2f; */
-  /* box-shadow: 0 8px 20px rgba(115,85,240,0.18) */
-  /* border: 1px solid #7c5bff; */
+  background: #142040;
+  box-shadow: 0 8px 20px rgba(115,85,240,0.18);
+  border: 1px solid #7c5bff;
   border-radius: 12px;
   padding: 16px;
   margin-bottom: 50px;
